@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Portal</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    
+    <h1 id="success"></h1>
+
+    <div class="container">
+        <h1>Login Your Account</h1>
+        <em id="error"></em>
+        <form onsubmit="login(event)">
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <input type="password" name="password" id="pw" placeholder="Your Password">
+            <button type="submit">login</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
